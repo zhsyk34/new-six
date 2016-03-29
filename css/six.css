@@ -1,0 +1,63 @@
+body {
+	background: #464407;
+}
+
+#container {
+	margin: 20px;
+	width: 900px;
+}
+
+#main {
+	margin-top: 10px;
+	font-size: 15px;
+	font-family: Arial;
+}
+
+nav>div {
+	margin: 8px 0;
+}
+
+#main th {
+	font-size: 18px;
+	font-weight: 700;
+	font-family: KaiTi;
+	height: 40px;
+}
+
+#main td {
+	font-size: 15px;
+}
+
+#main td.zodiac {
+	font-size: 18px;
+	font-family: KaiTi;
+}
+
+.generals>div, .special>div {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+	border-radius: 50%;
+	margin: 0 10px;
+	color: #fff;
+	font-weight: 500;
+}
+
+.red {
+	background: #f00;
+}
+
+.green {
+	background: #0CA70C;
+}
+
+.blue {
+	background: #2788EC;
+}
+
+#page {
+	background: #fff;
+	margin: 15px 0;
+	float: right;
+}

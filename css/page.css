@@ -1,0 +1,57 @@
+.page {
+	font-size: 13px;
+	font-family: KaiTi, SimSun, serif, Arial;
+}
+
+.page td {
+	height: 30px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 2px;
+}
+
+.page .first, .page .previous, .page .next, .page .last {
+	cursor: pointer;
+	color: #197ab9;
+}
+
+.page .disabled {
+	color: #808080;
+	cursor: default;
+}
+
+.page .separator:after {
+	content: '';
+	height: 24px;
+	border-left: 1px solid #7F9DB9;
+	border-right: 1px solid #fff;
+}
+
+.page input, .page select {
+	display: table-cell;
+	border: 1px solid #66afe9;
+	outline: none;
+	font: 400 14px/1 Arial;
+	margin: 0 3px;
+	padding: 2px 5px;
+}
+
+.page input {
+	width: 40px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.page select {
+	height: 22px;
+	width: 44px;
+}
+
+.page span {
+	display: inline-block;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 2px;
+}
